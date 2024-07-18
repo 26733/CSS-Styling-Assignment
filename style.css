@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+html,body { 
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight:; */
+    font-style: normal;
+    box-sizing: border-box;
+    background-color: #918e8e17;  
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+
+
+
+.logo a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo {
+    padding: 0 50px;;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    /* font-weight: bold; */
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+.intro, .order2 , .order3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.intro {
+    display: flex;
+    align-items : flex-start;
+    margin-bottom: 30px;
+}
+
+.greet {
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.box1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 255px;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    line-height: 2.5;
+}
+
+.box1 .arrow {
+    position: absolute;
+    bottom: -3px;
+    /* right: px; */
+    left: 520px;
+    font-size: 30px;
+}
+
+.imgarrow {
+    width: 50%;
+    height: auto;
+}
+
+
+.box2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 255px;
+    text-align: center;
+    position: relative;
+}
+
+.githeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.git {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.gitname {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.gitbutton {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.m-2 {
+    margin: 8px;
+}
+
+.block {
+    display: block;
+}
+
+.h-4 {
+    height: 14px;
+}
+
+.w-4 {
+    width: 14px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.bg-neutral-200 {
+    background-color: #e5e5e5;
+}
+
+.box4{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    letter-spacing: 1px;
+    margin-top: 110px;    
+}
+
+.box4 .arrow {
+    position: absolute;
+    bottom: -3px;
+    /* right: 10px; */
+    left: 140px;
+    font-size: 30px;
+}
+
+/* Common for all */
+.arrow button {
+    border-radius: 5px;
+    border-color: grey;
+    /* font-weight: ; */
+}
+
+
+.box5{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+/* .Linkedinimg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.Linkedinimg .linkimg {
+    margin-top: 80px;
+    width: 30%;
+    height: 30%;
+}
+
+/* .box1 .arrow {
+    position: absolute;
+    bottom: 10px;
+    /* right: px; 
+    left: 450px;
+    font-size: 30px;
+} 
+
+.imgarrow {
+    width: 50%;
+    height: auto%;
+}*/
+
+.box5 .arrow {
+    position: absolute;
+    bottom: -3px;
+    /* right: 10px; */
+    left: 140px;
+    font-size: 30px;
+}
+
+.imgarrow5 {
+    width: 60%;
+    height: auto;
+}
+
+
+
+.box6 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    overflow-y:scroll;
+}
+
+.skills {
+    font-weight: bold;
+    font-size: large;
+}
+
+.box6heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-name {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    /* font-weight: bold; */
+}
+
+
+.box7{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+.spotifylogo img {
+    margin-top: 2px;
+    margin-right: 194px;
+    width: 30%;
+    height: 30%;
+}
+
+.song {
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.song a {
+    text-decoration: none;
+    color: black;
+}
+
+.song p {
+    line-height: 6px;
+    font-family: "Newsreader", serif;
+}
+
+.box8{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.twitterimg img {
+    margin-top: 60px;
+    width: 50%;
+    height: 50%;
+}
+
+.box8 .arrow {
+    position: absolute;
+    bottom: -3px;
+    /* right: 10px; */
+    left: 140px;
+    font-size: 30px;
+}
+
+
+.box9{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.box9 p {
+    line-height: 2.5;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-size: 2.2rem;
+    margin-top: 80px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    color: grey;
+}
+
+.box9 .arrow {
+    position: absolute;
+    bottom: -3px;
+    /* right: 10px; */
+    left: 400px;
+    font-size: 30px;
+}
+
+.box9 img {
+    width: 45%;
+    height: auto;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1px 0;
+    margin-top: auto;
+}
+
+.footerp {
+    line-height: normal;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: normal;
+}
+
+footer p span {
+    font-weight: bolder;
+}
